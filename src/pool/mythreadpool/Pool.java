@@ -1,4 +1,4 @@
-package pool;
+package pool.mythreadpool;
 
 /**
  * 池接口
