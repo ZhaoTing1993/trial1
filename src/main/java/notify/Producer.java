@@ -7,7 +7,7 @@ import java.util.List;
  * Created by ZHAOTING001 on 2019/2/18.
  */
 public class Producer extends Thread {
-    List<Message> msgList = new ArrayList<>();
+    final List<Message> msgList = new ArrayList<>();
 
     @Override
     public void run() {
